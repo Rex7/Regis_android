@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_answer">
+        <item> Communication technology is something using which communication occurs</item>
+        <item> modulation is nothing but effective way of using resource to reduce error</item>
+        <item>The Different way of modulation are analog and digital
+                            Modulation
+                    analog          digital
+                    am fm pm        pam pwm ppm
+        </item>
+    </string-array>
+</resources>

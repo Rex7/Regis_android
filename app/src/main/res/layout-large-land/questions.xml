@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+
+    android:weightSum="100"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:gravity="center"
+        android:background="@drawable/images"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="XX/"
+            android:textSize="35sp"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="YY"
+            android:textSize="35sp"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="70"
+        android:transitionGroup="false">
+        <TextView
+            android:id="@+id/textquestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="15dp"
+            android:text="Questions"
+            android:textColor="#000"
+            android:textSize="45sp"/>
+        <ScrollView
+            android:id="@+id/srcollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textforanswer"
+                android:paddingLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="45sp"
+                android:textColor="#000"
+                android:text="Press A for Answer"/>
+            </LinearLayout>
+        </ScrollView>
+
+        </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_weight="12"
+        android:layout_height="0dp"
+        android:background="@drawable/images"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnleft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_select_left"/>
+        <Button
+            android:id="@+id/btnans"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ans"
+           />
+        <Button
+            android:id="@+id/btnright"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/buttom_select_right"
+            android:visibility="visible" />
+
+        </LinearLayout>
+
+</LinearLayout>
