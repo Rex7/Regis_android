@@ -57,7 +57,8 @@ public class Tough extends ActionBarActivity implements OnClickListener {
                     tpresent.setText(String.valueOf(index + 1)+"/");
                     ttotal.setText(String.valueOf(tough_ques.length));
                     tquestion.setText(tough_ques[index]);
-                    tanswer.setText("Press A for Answer");
+                    String press=getResources().getString(R.string.Aforanswer);
+                    tanswer.setText(press);
 
 
                 }
@@ -68,7 +69,8 @@ public class Tough extends ActionBarActivity implements OnClickListener {
                     tpresent.setText(String.valueOf(index + 1)+"/");
                     ttotal.setText(String.valueOf(tough_ques.length));
                     tquestion.setText(tough_ques[index]);
-                    tanswer.setText("Press A for Answer");
+                        String press=getResources().getString(R.string.Aforanswer);
+                        tanswer.setText(press);
                 }
 
 

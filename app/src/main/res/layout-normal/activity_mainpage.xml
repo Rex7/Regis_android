@@ -17,7 +17,7 @@
 
     <Button
         android:id="@+id/question_simple"
-        android:layout_width="200dp "
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:textSize="20sp"
         android:text="Simple Question"

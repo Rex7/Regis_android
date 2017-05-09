@@ -5,5 +5,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_hg">hg</string>
+    <string name="Aforanswer">press A for an answer</string>
 
 </resources>

@@ -17,7 +17,7 @@
     <Button
         android:id="@+id/question_simple"
 
-        android:layout_width="200dp "
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="Simple Question"
         android:background="@drawable/buttn_custom"
@@ -30,7 +30,7 @@
         android:background="@drawable/buttn_custom"
 
         android:textSize="20dp"
-        android:layout_width="200dp "
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="Tough Questions"
         android:layout_below="@+id/question_simple"
@@ -39,7 +39,7 @@
     <Button
        android:id="@+id/About_Us"
         android:background="@drawable/buttn_custom"
-        android:layout_width="200dp "
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:textSize="20dp"
         android:layout_below="@+id/tough_question"
@@ -52,7 +52,7 @@
         android:id="@+id/RateApp"
         android:textSize="20dp"
         android:background="@drawable/buttn_custom"
-        android:layout_width="200dp "
+        android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:text="Rate App"
